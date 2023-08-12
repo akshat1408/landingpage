@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+
+    <link rel="stylesheet" href="LandingPage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wave">
+        <!-- <img src="https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-white-background-with-color-yellow-wavy-and-half-picture-image_991559.jpg" alt=""> -->
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">products</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Types</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/01/90/69/80/1000_F_190698065_KpsTCbtxTNuJQJUd0QvW1U1l7HVslNHv.jpg"
+          alt=""
+        />
+      </nav>
+
+      <div class="main-content">
+        <div class="image-pista">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- <img src="https://static.vecteezy.com/system/resources/previews/003/814/337/non_2x/pistachios-or-pista-nuts-decorated-with-green-leaves-plain-background-top-view-flat-lay-photo.JPG"
+                  alt=""
+                /> -->
+                <img src="https://w7.pngwing.com/pngs/58/604/png-transparent-pistachio-hazelnut-cashew-pecan-walnut-food-dried-fruit-superfood-thumbnail.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <!-- <img
+                  src="https://static.vecteezy.com/system/resources/previews/003/814/507/non_2x/pistachios-or-pista-nuts-decorated-with-green-leaves-plain-background-top-view-flat-lay-photo.JPG"
+                  alt=""
+                /> -->
+              </div>
+              <div class="swiper-slide">
+                <!-- <img
+                  src="https://t3.ftcdn.net/jpg/00/88/66/60/360_F_88666078_qeDuS7HfDT3CqUch2iFxvveZRiKEDJeu.jpg"
+                  alt=""
+                /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-text">
+          <h1>The Pistachios</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+            dolores iste dolore ad quod. Consequatur aspernatur molestias
+            explicabo doloremque maxime?
+          </p>
+          <button>Know More</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="box">
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZaCWH3MTfR6FiMAi5zkG0Oha6b-BGe1KUXw&usqp=CAU" alt="">
+            </div>
+            <div class="inner-box">
+                <h3>100% Organic</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://www.pngmart.com/files/7/Cheap-PNG-Photos.png" alt="">
+            </div>
+            <div class="inner-box">
+                <h3>Not More Expensive</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://static.vecteezy.com/system/resources/previews/019/956/050/original/100-percent-natural-icon-sign-symbol-for-healthy-food-or-beverage-or-beauty-and-healthcare-products-vector-png.png" alt="">
+            </div>
+            <div class="inner-box">
+                <h3>Super Healthy</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-links">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    </script>
+  </body>
+</html>
